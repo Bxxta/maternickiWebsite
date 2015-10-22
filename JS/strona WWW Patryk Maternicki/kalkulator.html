@@ -1,0 +1,30 @@
+<!-- Projekt kalkulatora liczący dwie liczby -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="patryk.css" rel="stylesheet" > <!-- Definowanie zęwnętrznego arkuszu CSS z pliku patryk.css -->
+		<meta author="Patryk Maternicki"> <!-- deklaracja autora strony -->
+		<meta charset="UTF-8"> <!-- deklaracja charset -->
+	</head>
+		<body>
+			<form action="kalkulator.php" method="post"> <!-- Formularz kierujacy na strone PHP kalkulator.php -->
+				<div id="menu"> <!-- Nadawanie stylu CSS z rodziny menu -->
+					<div class="tekst1"> <!-- Nadawanie stylu CSS z pseudoklasy tekst1 -->
+						Podaj dwie liczby
+					</div>
+				</div>
+			<br>
+			<div id="menu">
+				<div class="tekst2">
+						Liczba 1:<input type="text" name="liczba1" size=3 maxsize=3 /> <!-- Okienko do wpisania pierwszej liczby -->
+						Liczba 2:<input type="text" name="liczba2" size=3 maxsize=3 /> <!-- Okienko do wpisania drugiej liczby -->
+						<br>
+				</div>
+			</div>
+			
+			<div id menu="menu"><center>
+				<input type="submit" value="Oblicz"> <!-- Guzik uruchamiający skrypt PHP "kalkulator.php" -->
+			</div></center>
+	</body>
+</html>

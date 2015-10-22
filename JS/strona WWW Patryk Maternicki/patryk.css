@@ -1,0 +1,21 @@
+body {
+background-color:black;
+}
+
+#menu {
+border-style:solid;
+border-width:2px;
+border-color:white;
+width:50%;
+
+}
+
+.tekst1 {
+color:white;
+font-size:40px;
+}
+.tekst2 {
+color:white;
+font-size:20px;
+text-align:center;
+}
